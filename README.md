@@ -2,11 +2,6 @@
 
 A complete medical data analysis project featuring EDA, machine learning, anomaly detection, and an AI-style doctor recommendation generator.
 
-🎥 Demo Video
-
-(Add your demo link here)
-https://drive.google.com/...
-
 ⭐ Project Overview
 
 This project analyzes hospital patient data and builds:
@@ -151,3 +146,4 @@ Predictive modeling
 Anomaly detection
 
 A doctor-style AI recommendation system without plagiarism
+
