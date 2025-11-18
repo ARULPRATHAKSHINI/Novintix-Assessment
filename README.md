@@ -1,108 +1,88 @@
-🏥 Hospital Patient Analytics & AI Doctor Recommendation System
+# 🏥 Hospital Patient Analytics & AI Doctor Recommendation System
 
-A complete medical data analysis project featuring EDA, machine learning, anomaly detection, and an AI-style doctor recommendation generator.
+A complete medical data analysis project featuring **EDA**, **Machine Learning**, **Anomaly Detection**, and an **AI-style doctor recommendation generator**.
 
-⭐ Project Overview
+---
+
+## ⭐ Project Overview
 
 This project analyzes hospital patient data and builds:
 
-✔ Exploratory Data Analysis (EDA)
+✔ **Exploratory Data Analysis (EDA)**  
+✔ **Supervised ML model** to predict test results  
+✔ **Unsupervised ML model** for billing anomaly detection  
+✔ **AI Doctor-style Recommendation Generator** (LLM-style logic but manually written)  
 
-✔ A Supervised ML model to predict test results
+---
 
-✔ An Unsupervised ML model for billing anomaly detection
+## 🚀 Features
 
-✔ An AI Doctor-style Recommendation Generator (LLM-style but manually written to avoid plagiarism)
-
-🚀 Features
-🔹 Task 1 — Exploratory Data Analysis (EDA)
-
-Distribution analysis for:
-
-Age
-
-Billing Amount
-
-Room Number
+### 🔹 Task 1 — Exploratory Data Analysis (EDA)
+Includes distribution analysis for:
+- Age  
+- Billing Amount  
+- Room Number  
 
 Frequency plots for:
+- Medical Condition  
+- Admission Type  
+- Medication  
 
-Medical Condition
+---
 
-Admission Type
+### 🔹 Task 2 — Supervised Machine Learning
+- Dataset preparation  
+- Train–test split  
+- Linear Regression model  
+- Evaluation metrics:
+  - MAE  
+  - RMSE  
+  - R² Score  
+- Predicted vs Actual comparison  
 
-Medication
+---
 
-🔹 Task 2 — Supervised Machine Learning
+### 🔹 Task 3 — Unsupervised Learning (Anomaly Detection)
+- Billing Amount anomaly detection  
+- Detect extremely high/low bills  
+- Identify rare or suspicious cases  
+- Automatically flag anomalies for review  
 
-Dataset preparation
+---
 
-Train–test split
-
-Linear Regression model (simple & explainable)
-
-Evaluation metrics:
-
-MAE
-
-RMSE
-
-R² Score
-
-Predicted vs Actual comparison
-
-🔹 Task 3 — Unsupervised Learning
-
-Billing Amount Anomaly Detection
-
-Detect extremely high / low hospital bill values
-
-Identify rare or suspicious medical cases
-
-Flag anomalies for manual review
-
-🔹 Task 4 — AI Doctor Recommendation (LLM-based logic)
-
+### 🔹 Task 4 — AI Doctor Recommendation (LLM-Based Logic)
 Uses:
-
-Patient Age
-
-Medical Condition
-
-Medication
-
-Predicted Test Result
+- Patient Age  
+- Medical Condition  
+- Medication  
+- Predicted Test Result  
 
 Generates:
+- Short doctor-style note  
+- Personalized health advice  
+- Follow-up instructions  
 
-Short doctor-style note
+---
 
-Health advice
+## 🧠 Tech Stack
 
-Follow-up instructions
+### ✔ Python Libraries
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
 
-🧠 Tech Stack
-✔ Python Libraries
+### ✔ Machine Learning
+- Linear Regression  
+- Isolation Forest  
+- Label Encoding  
+- Feature Engineering  
 
-pandas
+---
 
-numpy
-
-matplotlib
-
-seaborn
-
-scikit-learn
-
-✔ Machine Learning
-
-Linear Regression
-
-Isolation Forest
-
-Feature Encoding
-
-📁 Project Structure
+## 📁 Project Structure
+```
 ├── data/
 │   └── patient_records.csv
 ├── notebooks/
@@ -113,16 +93,34 @@ Feature Encoding
 │   ├── anomaly_detection.py
 │   └── ai_recommendation.py
 └── README.md
+```
 
-⚙️ How to Run the Project
-1. Install Dependencies
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-2. Open Jupyter Notebook
-jupyter notebook
+### 2️⃣ Open Google Colab
+```bash
+Google Colab
+```
 
-3. Run analysis.ipynb to execute all tasks
-📊 Sample Output — AI Doctor Recommendation
+### 3️⃣ Run `analysis.ipynb`
+Executes:
+- EDA  
+- ML model training  
+- Anomaly detection  
+- AI doctor recommendation generation  
+
+---
+
+## 📊 Sample Output — AI Doctor Recommendation
+
+```
 Doctor-style Recommendation:
 Patient age: 63
 Condition: Obesity
@@ -134,16 +132,21 @@ Advice:
 - Ensure rest, proper hydration and balanced diet.
 - Monitor symptoms closely. If condition is 'high' or 'critical', arrange immediate clinical review and further tests.
 - Schedule follow-up check in 3-7 days and repeat tests to confirm trend.
+```
 
-🏁 Conclusion
+---
+
+## 🏁 Conclusion
 
 This project demonstrates:
+- ✔ Data Cleaning & EDA  
+- ✔ Predictive modeling  
+- ✔ Anomaly detection  
+- ✔ Doctor-style AI Recommendation System (non-plagiarised)  
 
-Data Cleaning & EDA
+A full end-to-end healthcare analytics pipeline.
 
-Predictive modeling
+---
 
-Anomaly detection
-
-A doctor-style AI recommendation system without plagiarism
-
+## 📜 License
+MIT License  
