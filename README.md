@@ -1,4 +1,4 @@
-HealthCareML — Patient Analysis & AI Recommendation System
+##HealthCareML — Patient Analysis & AI Recommendation System
 
 A complete healthcare analytics and machine learning project built in Google Colab, featuring Exploratory Data Analysis (EDA), supervised learning for test result prediction, anomaly detection, and an LLM-based doctor recommendation engine.
 
@@ -259,5 +259,6 @@ Predictive ML
 Anomaly Detection
 
 LLM-based doctor assistance
+
 
 This project demonstrates strong understanding of end-to-end machine learning pipeline and AI-based automation.
