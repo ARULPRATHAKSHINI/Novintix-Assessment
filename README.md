@@ -148,5 +148,3 @@ A full end-to-end healthcare analytics pipeline.
 
 ---
 
-## 📜 License
-MIT License  
